@@ -1,0 +1,23 @@
+dsl ness
+
+Namespace sensor
+	Event Metric
+		Attribute id as Text
+		Attribute value as Real
+		Attribute name as Text
+
+Namespace sensor2
+	Event Metric
+		Attribute id as Text
+		Attribute value as Real
+		Attribute name as Text
+
+Event NuevoDispositivo
+	Attribute marca as Text
+	Attribute modelo as Text
+	Attribute ip as Text
+	Attribute tipo as Word("Computadora" "Switch" "Servidor")
+
+Event Anomaly
+	Attribute name as Text
+

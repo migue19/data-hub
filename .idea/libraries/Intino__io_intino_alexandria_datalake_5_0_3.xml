@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Intino: io.intino.alexandria:datalake:5.0.3">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/intino/alexandria/datalake/5.0.3/datalake-5.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,22 @@
+dsl Ness
+
+use Events
+
+Broker(path = empty, port = empty, secondaryPort = empty)
+	User("sensor", "sensor")
+	User("agregator", "agregator")
+
+Datalake(path = empty, scale = Day) dl
+	Seal > Cron(pattern = "0 0 4 1/1 * ? *", timeZone = "Mexico/General")
+
+	Tank(scale = Month) devices as Event(NuevoDispositivo)
+	Tank anomaly as Event(Anomaly)
+	Tank metrics as Event(sensor.Metric)
+
+Terminal agregatorTerminal
+	Publish(dl.anomaly)
+	Subscribe(dl.metrics)
+
+Terminal sensorTerminal
+	Subscribe(dl.devices)
+	Publish (dl.metrics)

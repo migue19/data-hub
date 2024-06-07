@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Intino: org.apache.activemq:activemq-pool:5.17.3">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-pool/5.17.3/activemq-pool-5.17.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
