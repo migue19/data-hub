@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c968a8-f759-4496-851d-bab5a5551bf8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/miguelmexicano.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.intino/artifacts/datahub.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.intino/ness/datahub/compiler.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datahub/artifact.legio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datahub/datahub.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datahub/src/com/intersphere/learn/Events.tara" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project.legio" afterDir="false" />
-    </list>
+    <list default="true" id="f5c968a8-f759-4496-851d-bab5a5551bf8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
